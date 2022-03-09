@@ -36,6 +36,7 @@ hr {
   padding: 22px;
   width: 85%;
   max-width: 340px;
+  box-shadow: 0 0 25px 10px hsl(215, 64%, 9%);
 }
 
 .card__head {
