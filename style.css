@@ -5,9 +5,7 @@
   box-sizing: border-box;
 }
 
-html, body, p, h4 {
-  margin: 0;
-}
+html, body, p, h4 { margin: 0; }
 
 body {
   background: hsl(217, 54%, 11%);
@@ -18,17 +16,11 @@ body {
   font-size: 16px;
 }
 
-img {
-  max-width: 100%;
-}
+img { max-width: 100%; }
 
-a {
-  text-decoration: none;
-}
+a { text-decoration: none; }
 
-hr {
-  border: 1px solid hsl(215, 32%, 27%);
-}
+hr { border: 1px solid hsl(215, 32%, 27%); }
 
 .card {
   background: hsl(216, 50%, 16%);
@@ -49,9 +41,7 @@ hr {
   border-radius: 10px;
 }
 
-.card__head {
-  border-radius: 10px;
-}
+.card__head { border-radius: 10px; }
 
 .card__head::after {
   content: url(./images/icon-view.svg);
@@ -81,9 +71,7 @@ hr {
   position: relative;
 }
 
-.card__title:hover {
-  color: hsl(178, 100%, 50%);
-}
+.card__title:hover { color: hsl(178, 100%, 50%); }
 
 .card__text {
   font-weight: 300;
@@ -116,13 +104,9 @@ hr {
   font-size: clamp(0.95rem, 3vw, 1rem);
 }
 
-.card__leftElement {
-  color: hsl(178, 100%, 50%);
-}
+.card__leftElement { color: hsl(178, 100%, 50%); }
 
-.card__rightElement img {
-  width: 20px;
-}
+.card__rightElement img { width: 20px; }
 
 .creation {
   display: flex;
@@ -139,13 +123,9 @@ hr {
   margin-right: 12px;
 }
 
-.creation span {
-  color: #FFF;
-}
+.creation span { color: #FFF; }
 
-.creation span:hover {
-  color: hsl(178, 100%, 50%);
-}
+.creation span:hover { color: hsl(178, 100%, 50%); }
 
 footer {
   color: hsl(215, 51%, 70%);
